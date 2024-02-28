@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.fa.clp.testcomponents.Listeners"></listener>
+	</listeners>
+	<test name="Clp">
+		<classes>
+			<!-- 	<class name="com.fa.clp.testcases.InvalidPasswordClp" />
+			<class name="com.fa.clp.testcases.InvalidUsername" />
+			<class name="com.fa.clp.testcases.InvalidPassword" />
+			<class name="com.fa.clp.testcases.LogoutFunction" />
+			<class name="com.fa.clp.testcases.EmptyLogin" />
+			<class name="com.fa.clp.testcases.InvalidCredentialsClp" />
+			<class name="com.fa.clp.testcases.PolicyNumber" />-->
+			<class name="com.fa.clp.testcases.InwardIdTextGeneration" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

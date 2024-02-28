@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.fa.clp.testcomponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Clp(failed)" verbose="0">
+    <classes>
+      <class name="com.fa.clp.testcases.InwardIdTextGeneration">
+        <methods>
+          <include name="onStartGo"/>
+          <include name="Inward"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fa.clp.testcases.InwardIdTextGeneration -->
+      <class name="com.fa.clp.testcases.PolicyNumber">
+        <methods>
+          <include name="policyNumber"/>
+          <include name="onStartGo"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.fa.clp.testcases.PolicyNumber -->
+    </classes>
+  </test> <!-- Clp(failed) -->
+</suite> <!-- Failed suite [Suite] -->
